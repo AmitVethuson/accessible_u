@@ -4,7 +4,9 @@
  *
  * before-main.css = Styles for inaccessible version
  */
-
+ :focus {
+  outline: 3px solid red !important;
+}
 
   /* overwrite some default bootstrap colors */
   .success {
